@@ -9,7 +9,7 @@ pipeline {
     stages {
        stage ('Cloning Project From Git') {
             steps {
-                 git branch: "DevTimeSeet",
+                 git branch: "DevTimeSheet",
                      url: "https://github.com/hooLeeFuk/DevTimeSeet.git",
 
             }
